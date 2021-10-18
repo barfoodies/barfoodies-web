@@ -1,0 +1,49 @@
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    font-size: 18px;
+}
+
+h1,h2,h3,h4,h5{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.image.bowl{
+    padding: 10% 20%;
+}
+
+h1 {
+    font-size: 42px;
+    font-weight: 800;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+a{
+    font-size: 22px;
+}
+
+@media screen and (min-width: 769px){
+    h1 {
+        font-size: 122px;
+    }
+    h2 {
+        font-weight: 700;
+        font-size: 28px;
+        margin-top: -36px;
+    }
+    .image.bowl{
+        padding: 5% 40%;
+    }
+    p{
+        font-size: 22px;
+    }
+    a{
+        font-size: 28px;
+    }
+}
+
